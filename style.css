@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+body {
+    background-color: hsl(219, 100%, 5%);
+}
+
+p,
+h1,
+h2 {
+    color: antiquewhite;
+}
+
+.hero {
+    min-height: 80svh;
+    background-image: url(./assets/images/agustin-fernandez-p3ioCes9DfA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-article {
+    font-family: "Sofadi One", system-ui;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.hei {
+    font-size: 40px;
+}
