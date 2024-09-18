@@ -1,6 +1,11 @@
+<!-- Man kan enkelt få opp et basic oppsett av html
+     ved å trykke ! Enter -->
 <!DOCTYPE html>
 <html lang="no">
+   <!-- all html skrives mellom html tagsene-->
    <head>
+      <!-- Head elementet inneholder all dataen som brukeren av nettsiden ikke ser, som for eksempel informasjon om hvem som har laget nettsiden, 
+            hvilke charset som brukes, fonter vi henter fra google osv -->
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Intro til html" />
@@ -14,7 +19,10 @@
       />
    </head>
    <body>
+      <!-- I body elementer skrives all koden som påvirker hvordan nettsiden ser ut -->
+
       <style>
+         /* Style elementet brukes for å skrive internal CSS, vi anbefaller å ikke bruke det, da det lager mye unødvendig clutter på siden */
          img {
             width: 200px;
          }
@@ -26,6 +34,7 @@
       <!-- CTRL K + C for å kommentere kode -->
       <!-- CTRL * fungerer også -->
       <header>
+         <!-- header er et container type element og brukes for introduserende innhold på nettsiden -->
          <nav>
             <h1 style="font-size: 40px; color: green">Emil Endresen</h1>
             <a href="https://www.bt.no/">Nyhetside fra Bergen</a>
